@@ -1,0 +1,32 @@
+.personal-details {
+    background-color: black;
+    color:white;
+    height: auto;
+  }
+  .personal-details > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 75px;color:white;
+  }
+  .personal-details > h2{
+    display: block;
+    margin-left: 45%;
+    padding: 20px;
+    margin-right: auto;
+    cursor: pointer;
+    color: orangered;
+  }
+  .details{
+    display: block;
+    margin-left: 35%;
+    margin-right: 30px;
+
+  }
+  .details> p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: -15rem;
+  }
+ 
