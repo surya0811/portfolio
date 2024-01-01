@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import Heroimg2 from '../Components/Heroimg2';
 import Work from '../Components/Work';
-import Trainings from '../Components/Trainings';
+// import Trainings from '../Components/Trainings';
 
 
 const Project = () => {
@@ -14,7 +14,7 @@ const Project = () => {
       <Navbar/>
       <Heroimg2 heading="PROJECTS." text="some of my recent works"/>
       <Work/>
-      <Trainings/>
+      {/* <Trainings/> */}
       <Footer/>
       
     </div>

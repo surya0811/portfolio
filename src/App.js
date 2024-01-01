@@ -7,6 +7,8 @@ import Project from './routes/Project';
 import About from './routes/About';
 import Contact from './routes/Contact';
 import { Route , Routes } from 'react-router-dom';
+import Training from './routes/Training';
+import Journals from './routes/Journals';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/project"element={<Project/>}/>
         <Route path="/about"element={<About/>}/>
         <Route path="/contact"element={<Contact/>}/>
+        <Route path="/trainings" element={<Training/>}/>
+        <Route path="/journals" element={<Journals/>}/>
       </Routes>
       
 

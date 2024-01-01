@@ -1,21 +1,23 @@
-import "./WorkCardStyles.css";
+import "./JournalStyles.css";
 import React from 'react'
-import WorkCard from "./WorkCard";
-import WorkCardData from "./WorkCardData";
+import JournalDisplay from "./JournalDisplay";
+import JournalData from "./JournalData";
 
 
 const Work = () => {
   return (
     <div className="work-container">
-      {/* <h1 className="project-heading">PROJECTS</h1> */}
+      {/* <h1 className="project-heading">JOURNALS</h1> */}
       <div className="project-container">
-       {WorkCardData.map((val,ind)=> {
+       {JournalData.map((val,ind)=> {
         return (
-            <WorkCard
+            <JournalDisplay
             key={ind}
-            imgsrc={val.imgsrc}
+            // imgsrc={val.imgsrc}
             title={val.title}
             text={val.text}
+            volume={val.volume}
+            year={val.year}
             view={val.view}
             source={val.source}
                         />

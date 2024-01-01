@@ -7,7 +7,7 @@ import TrainingsData from "./TrainingsData";
 const Trainings = () => {
   return (
     <div className="work-container">
-      <h1 className="project-heading">TRAININGS</h1>
+      {/* <h1 className="project-heading">TRAININGS</h1> */}
       <div className="project-container">
        {TrainingsData.map((val,ind)=> {
         return (

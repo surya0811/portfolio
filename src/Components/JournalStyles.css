@@ -1,8 +1,8 @@
 .project-heading {
     text-align: center;
     padding:4rem 0 2rem 0 ;
-    text-decoration: none;
-    font-size: 600;
+    text-decoration: solid;
+    font-size: 800;
 
 }
 .project-container {
@@ -15,23 +15,24 @@
 
 }
 .project-card {
-    background: #1a1919;
+    /* background: rgb(19, 187, 234); */
     padding: 1.2rem 1rem;
 
 }
 .project-card img {
     width:100%;
-    height: auto;
+    height: 80%;
 }
 .project-title {
-    color: white;
+    color: rgba(220, 8, 235, 0.797);
     padding: 1rem 0;
 }
 .pro-details p {
     padding-bottom: 1rem;
-    font-size: 1.1rem;
-    text-align: justify;
-    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(249, 14, 14);
+    
     
 }
 .pro-buttons{
@@ -45,29 +46,8 @@
 }
 @media screen and (max-width: 740px) {
     .project-container {
-        max-width: 100%;
+        max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
-        padding: 2rem; /* Added padding for better spacing on small screens */
-    }
-
-    .project-card {
-        background: #1a1919;
-        padding: 1.2rem 1rem;
-        max-width: fit-content;
-       max-height: fit-content;
-       
-    }
-
-    .project-card img {
-        width: auto;
-        height: auto;
-    }
-
-    .project-title{
-        font-size: 1rem;
-    }
-    .pro-details p {
-        font-size: 5px; /* Adjusted font size for better readability on small screens */
     }
 }

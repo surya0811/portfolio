@@ -7,7 +7,8 @@
 }
 .hero-img::before {
     content: "";
-    background: url("https://www.keenesystems.com/hubfs/blog-images/computer-programming.jpg");
+    /* background: url("https://www.keenesystems.com/hubfs/blog-images/computer-programming.jpg"); */
+    background: url("https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center top;
     height: 100%;

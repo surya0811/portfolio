@@ -1,10 +1,20 @@
 .footer {
     width: 100%;
     padding: 6rem 0;
-    background-color: rgba(19,19,19,0.8);
+    /* background-color: rgba(19,19,19,0.8); */
     max-height: 150px;
+    position: relative;
 
 }
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2; /* Place the video element behind the content */
+  }
 .footer-container {
     max-width: 1140px;
     margin: auto;
@@ -18,6 +28,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    align-items: left;
 
 }
 .location {
@@ -26,6 +37,8 @@
 }
 .location p {
     line-height: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
 
 }
 .right {
@@ -42,10 +55,15 @@
 h4 {
     font-size: 1.2rem;
     padding-bottom: 0.7rem;
+    color: black;
 
+}
+h4 a {
+    color: black;
 }
 p {
     font-size: 1.2rem;
+    color: black;
 
 }
 @media screen and (max-width:640px) {

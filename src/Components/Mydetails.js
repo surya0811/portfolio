@@ -31,11 +31,11 @@ const Mydetails = () => {
 
             
       <div className="personal-details">
-      <h1>MY PERSONAL INFO</h1>
+      <h1>MY EDUCATION INFO</h1>
       <h2 onClick={handleToggleWorkDetails}>&#9830; Graduation</h2>
         {showWorkDetails && (
           <div className="details">
-            <p>&#8594;I am currently engaged in my pursuit of a prestigious undergraduate degree at SCSVMV University, specializing in the dynamic realm of Computer Science and Engineering. I have diligently maintained an impressive Cumulative Performance Grade Average (CPGA) of 9.65.</p>
+            <p>&#8594;I am currently engaged in my pursuit of a prestigious undergraduate degree at Sri chandrasekharendra saraswathi viswa mahavidyalaya, specializing in the dynamic realm of Computer Science and Engineering. I have diligently maintained an impressive Cumulative Performance Grade Average (CPGA) of 9.65.</p>
             <br></br>
            </div>
         )}

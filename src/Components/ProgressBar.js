@@ -14,12 +14,12 @@ const ProgressBarGraph = () => {
 
     // Set up data for the progress bar graph
     const languagesData = {
-      labels: ['HTML', 'CSS', 'Java', 'JAVA SCRIPT', 'PYTHON', 'DATABASE', 'REACT JS', 'NODE JS'],
+      labels: ['HTML', 'CSS', 'Java', 'JAVA SCRIPT', 'PYTHON', 'DATABASE', 'REACT JS', 'NODE JS','APACHE'],
       datasets: [
         {
-          data: [90, 70, 90, 85, 88, 90, 80, 85],
-          backgroundColor: ['rgba(54, 162, 235, 0.7)', 'rgba(255, 99, 132, 0.7)', 'rgba(75, 192, 192, 0.7)', 'rgba(255, 205, 86, 0.7)', 'rgba(153, 102, 255, 0.7)', 'rgba(125, 102, 255, 0.7)', 'rgba(193, 102, 254, 0.7)', 'rgba(153, 162, 185, 0.3)'],
-          borderColor: ['rgba(54, 162, 235, 1)', 'rgba(255, 99, 132, 1)', 'rgba(75, 192, 192, 1)', 'rgba(255, 205, 86, 1)', 'rgba(153, 102, 255, 1)', 'rgba(150, 102, 255, 1)', 'rgba(125, 102, 254, 1)', 'rgba(193, 162, 185, 1)'],
+          data: [90, 70, 90, 85, 88, 90, 80, 85,70],
+          backgroundColor: ['rgba(54, 162, 235, 0.7)', 'rgba(255, 99, 132, 0.7)', 'rgba(75, 192, 192, 0.7)', 'rgba(255, 205, 86, 0.7)', 'rgba(153, 102, 255, 0.7)', 'rgba(125, 102, 255, 0.7)', 'rgba(193, 102, 254, 0.7)', 'rgba(153, 162, 185, 0.3)','rgba(75, 192, 192, 0.7)'],
+          borderColor: ['rgba(54, 162, 235, 1)', 'rgba(255, 99, 132, 1)', 'rgba(75, 192, 192, 1)', 'rgba(255, 205, 86, 1)', 'rgba(153, 102, 255, 1)', 'rgba(150, 102, 255, 1)', 'rgba(125, 102, 254, 1)', 'rgba(193, 162, 185, 1)','rgba(75, 192, 192, 0.4)'],
           borderWidth: 5,
         },
       ],
@@ -49,8 +49,8 @@ const ProgressBarGraph = () => {
                 size: 16, // Increase the size of the X-axis labels
               },
             },
-            barPercentage: 0.6, // Decrease the width of the bars
-            categoryPercentage: 0.8, // Decrease the space between the bars
+            barPercentage: 0.4, // Decrease the width of the bars
+            categoryPercentage: 0.4, // Decrease the space between the bars
 
           },
           y: {

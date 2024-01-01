@@ -1,5 +1,5 @@
 import "./HeroimgStyles.css";
-import introvideo from "../assets/loginback.mp4";
+import introImage from "../assets/contactback.jpg";
 import React from 'react'
 import { Link } from "react-router-dom";
 
@@ -7,10 +7,8 @@ const Heroimg = () => {
   return (
     <div className="hero">
         <div className="mask">
-        <video className="intro-video" autoPlay muted loop>
-    <source src={introvideo} type="video/mp4" />
-    
-  </video>
+        <img src={introImage} alt="Background" className="background-video" />
+
         </div>
      <div className="content">
         <p>HI , I'M SURYA .</p>    

@@ -3,14 +3,23 @@
     height: 100vh;
     position: relative;
 }
-.intro-video {
+/* .intro-video {
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
     object-fit: cover;
 
-}
+} */
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place the video element behind the content */
+  }
 .mask::after {
     content:"";
     width: 100%;
@@ -39,12 +48,13 @@
     padding: 0.6rem 0 1.5rem;
 
 }
-/* .hero .content p {
-    font-size: 1.7rem;
+.hero .content p {
+    font-size: 1.4rem;
     font-weight: 300;
     text-transform: uppercase;
+    color: white;
 
-} */
+}
 .content.btn {
     margin: 1rem 0.2rem;
 }

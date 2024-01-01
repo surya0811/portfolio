@@ -1,7 +1,7 @@
 .personal-details {
-    background-color: black;
+    background-color: rgb(65, 66, 66);
     color:white;
-    height: auto;
+    height: 100%;
   }
   .personal-details > h1{
     display: flex;
@@ -28,5 +28,6 @@
     font-size: 20px;
     text-align: left;
     margin-left: -15rem;
+    color: white;
   }
  
